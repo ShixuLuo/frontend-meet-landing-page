@@ -303,8 +303,13 @@ section {
 .main-content {
   padding-top: var(--spacing-400);
   padding-bottom: var(--spacing-800);
-  padding-left: 160px;
-  padding-right: 160px;
+}
+
+@media (min-width: 1440px) {
+  .main-content {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
 }
 
 div.img-container {
@@ -389,6 +394,7 @@ footer {
 
 @media (min-width: 1440px) {
   .footer__content {
+    padding: 112px var(--spacing-1000);
     padding-left: var(--spacing-1000);
     padding-right: var(--spacing-1000);
     text-align: left;
