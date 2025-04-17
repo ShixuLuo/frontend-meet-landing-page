@@ -278,6 +278,7 @@ section {
   .hero {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 64px;
     width: 100vw;
     flex-direction: row;
     justify-content: space-between;
@@ -308,6 +309,7 @@ section {
 @media (min-width: 1440px) {
   .main-content {
     padding-left: 160px;
+    padding-top: 56px;
     padding-right: 160px;
   }
 }
